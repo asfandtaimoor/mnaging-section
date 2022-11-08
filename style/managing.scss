@@ -1,0 +1,49 @@
+.sell {
+  max-width: 1600px;
+  padding: 120px 0px;
+  &-cont {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    &-img {
+      max-width: 384px;
+      margin: 0 auto;
+      &__svg {
+        width: 100%;
+      }
+    }
+    &-content {
+      max-width: 453px;
+      margin: 0 auto;
+
+      &__heading {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 48px;
+        color: #18181b;
+        margin-bottom: 35px;
+      }
+      &__des {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #3f3f46;
+      }
+      &__link {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 28px;
+        color: #18181b;
+      }
+    }
+  }
+}

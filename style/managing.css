@@ -1,0 +1,63 @@
+.sell {
+  max-width: 1600px;
+  padding: 120px 0px;
+}
+
+.sell-cont {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sell-cont-img {
+  max-width: 384px;
+  margin: 0 auto;
+}
+
+.sell-cont-img__svg {
+  width: 100%;
+}
+
+.sell-cont-content {
+  max-width: 453px;
+  margin: 0 auto;
+}
+
+.sell-cont-content__heading {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 48px;
+  color: #18181b;
+  margin-bottom: 35px;
+}
+
+.sell-cont-content__des {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3f3f46;
+}
+
+.sell-cont-content__link {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #18181b;
+}
+/*# sourceMappingURL=managing.css.map */
